@@ -5,7 +5,7 @@ import Projects from "@/components/sections/Projects";
 import Contacts from "@/components/sections/Contacts";
 export default function Home() {
   return (
-    <main className="relative overflow-x-hidden">
+    <main className="relative">
       <Hero />
       <About />
       <Stack />
