@@ -1,0 +1,2220 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "vwpAd",
+      "x": 382,
+      "y": 131,
+      "name": "Вариант 1 — Dark Minimal",
+      "theme": {
+        "t:Mode": "Dark"
+      },
+      "clip": true,
+      "width": 1440,
+      "fill": "#000000",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NOvk1",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "gap": 80,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "dR6zR",
+              "name": "Hero Text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Pkwpo",
+                  "name": "eyebrow",
+                  "fill": "$t:--primary",
+                  "content": "// ПРИВЕТ",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": "$--fs-eyebrow",
+                  "fontWeight": "500",
+                  "letterSpacing": "$--ls-wide"
+                },
+                {
+                  "type": "text",
+                  "id": "CEulQ",
+                  "name": "nameText",
+                  "fill": "$t:--foreground",
+                  "content": "Данил",
+                  "lineHeight": "$--lh-tight",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": "$--fs-h1",
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "kCkjx",
+                  "name": "roleText",
+                  "fill": "$t:--muted-foreground",
+                  "content": "AI-First Developer",
+                  "lineHeight": "$--lh-tight",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": "$--fs-h2",
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "text",
+                  "id": "aIghJ",
+                  "name": "subtitle",
+                  "fill": "$t:--muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Этот сайт я собрал за пару часов специально для вас\nОстальные проекты потребовали чуть больше",
+                  "lineHeight": "$--lh-relaxed",
+                  "fontFamily": "Geist",
+                  "fontSize": "$--fs-body",
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "F1S38",
+                  "name": "Buttons",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "hw18B",
+                      "type": "ref",
+                      "ref": "t:ZGI9Z",
+                      "name": "cta",
+                      "width": "fit_content",
+                      "x": 0,
+                      "y": 0,
+                      "descendants": {
+                        "t:oNDwn": {
+                          "enabled": false
+                        },
+                        "t:J3Z6N": {
+                          "content": "Написать в Telegram",
+                          "x": 24
+                        }
+                      }
+                    },
+                    {
+                      "id": "RUZRM",
+                      "type": "ref",
+                      "ref": "t:zIDRN",
+                      "name": "ghLink",
+                      "width": "fit_content",
+                      "x": 224,
+                      "y": 0,
+                      "descendants": {
+                        "t:6NkRd": {
+                          "enabled": false
+                        },
+                        "t:0SrnB": {
+                          "content": "GitHub сайта →",
+                          "x": 24
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XUXyZ",
+              "name": "Photo",
+              "width": 480,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1775219693368.png",
+                "mode": "fill"
+              },
+              "cornerRadius": "$t:--radius-m",
+              "layout": "none"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "E3pQD",
+          "name": "About Section",
+          "width": "fill_container",
+          "gap": 80,
+          "padding": 64,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "IWeyq",
+              "name": "About Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rjYW1",
+                  "name": "aboutEyebrow",
+                  "fill": "$t:--primary",
+                  "content": "// ОБО МНЕ",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": "$--fs-eyebrow",
+                  "fontWeight": "500",
+                  "letterSpacing": "$--ls-wide"
+                },
+                {
+                  "type": "text",
+                  "id": "jNLZU",
+                  "name": "aboutTitle",
+                  "fill": "$t:--foreground",
+                  "content": "Полный цикл\nразработки с LLM",
+                  "lineHeight": "$--lh-tight",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": "$--fs-h2",
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "jFv9Q",
+                  "name": "aboutText",
+                  "fill": "$t:--muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Я разрабатываю веб-сервисы с помощью LLM. Не прототипы и не демо — полноценные продукты, которые работают в проде. Делаю это уже больше года. Активно участвовал в построении LLM development workflow в команде, где вместе довели PCW до 95%+. \nРезультат — команда стала думать о продукте, а не о коде.",
+                  "lineHeight": "$--lh-relaxed",
+                  "fontFamily": "Geist",
+                  "fontSize": "$--fs-body",
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NfRZQ",
+              "name": "Tools Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ScKgR",
+                  "name": "toolsLabel",
+                  "fill": "$t:--primary",
+                  "content": "// МОЙ ИНСТРУМЕНТАРИЙ",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": "$--fs-eyebrow",
+                  "fontWeight": "500",
+                  "letterSpacing": "$--ls-wide"
+                },
+                {
+                  "type": "frame",
+                  "id": "FzFNG",
+                  "name": "row1",
+                  "width": "fill_container",
+                  "height": "fit_content(200)",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "a0BN2",
+                      "type": "ref",
+                      "ref": "3Fq8G",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "name": "card1",
+                      "x": 0,
+                      "y": 0,
+                      "descendants": {
+                        "bH3v3": {
+                          "width": "fill_container",
+                          "height": "fit_content",
+                          "x": 32,
+                          "y": 32
+                        },
+                        "5nrcy": {
+                          "iconFontName": "terminal"
+                        },
+                        "qo5oF": {
+                          "content": "Claude Code",
+                          "x": 40,
+                          "y": 5.5
+                        },
+                        "vdsV8": {
+                          "content": "По опыту, самый мощный инструмент для разработки с LLM на сегодня. MCP-серверы, кастомные skills.",
+                          "width": "fill_container",
+                          "x": 32,
+                          "y": 80
+                        }
+                      }
+                    },
+                    {
+                      "id": "BiPTL",
+                      "type": "ref",
+                      "ref": "3Fq8G",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "name": "card2",
+                      "x": 314,
+                      "y": 0,
+                      "descendants": {
+                        "bH3v3": {
+                          "width": "fill_container",
+                          "height": "fit_content",
+                          "x": 32,
+                          "y": 32
+                        },
+                        "5nrcy": {
+                          "iconFontName": "pen-tool"
+                        },
+                        "qo5oF": {
+                          "content": "Figma + AI-дизайн",
+                          "x": 40,
+                          "y": 5.5
+                        },
+                        "vdsV8": {
+                          "content": "верстка как по макетам, так и генерация интерфейсов через нейросети. Быстрый путь от идеи до готового UI.",
+                          "width": "fill_container",
+                          "x": 32,
+                          "y": 80
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xQggX",
+                  "name": "row2",
+                  "width": "fill_container",
+                  "height": "fit_content(200)",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "wd18O",
+                      "type": "ref",
+                      "ref": "3Fq8G",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "name": "card3",
+                      "x": 0,
+                      "y": 0,
+                      "descendants": {
+                        "bH3v3": {
+                          "width": "fill_container",
+                          "height": "fit_content",
+                          "x": 32,
+                          "y": 32
+                        },
+                        "5nrcy": {
+                          "iconFontName": "git-branch"
+                        },
+                        "qo5oF": {
+                          "content": "GitLab CI",
+                          "x": 40,
+                          "y": 5.5
+                        },
+                        "vdsV8": {
+                          "content": "Автоматизация пайплайнов, деплой и контроль качества кода. Настройка CI/CD под проект.",
+                          "width": "fill_container",
+                          "x": 32,
+                          "y": 80
+                        }
+                      }
+                    },
+                    {
+                      "id": "aOyiQ",
+                      "type": "ref",
+                      "ref": "3Fq8G",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "name": "card4",
+                      "x": 314,
+                      "y": 0,
+                      "descendants": {
+                        "bH3v3": {
+                          "width": "fill_container",
+                          "height": "fit_content",
+                          "x": 32,
+                          "y": 32
+                        },
+                        "5nrcy": {
+                          "iconFontName": "users"
+                        },
+                        "qo5oF": {
+                          "content": "Работа с командой",
+                          "x": 40,
+                          "y": 5.5
+                        },
+                        "vdsV8": {
+                          "content": "Коммуникация со стейкхолдерами, написание аналитики — я не только про код, но и процессы.",
+                          "width": "fill_container",
+                          "x": 32,
+                          "y": 80
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MOlKc",
+          "name": "Stack Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "jlOv9",
+              "name": "eyebrow",
+              "fill": "$t:--primary",
+              "content": "// СТЕК",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": "$--fs-eyebrow",
+              "fontWeight": "500",
+              "letterSpacing": "$--ls-wide"
+            },
+            {
+              "type": "text",
+              "id": "KYVDG",
+              "name": "title",
+              "fill": "$t:--foreground",
+              "content": "С LLM стек не ограничен",
+              "lineHeight": "$--lh-tight",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": "$--fs-h2",
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "PKByr",
+              "name": "subtitle",
+              "fill": "$t:--muted-foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Однако вот с чем уже успел поработать:",
+              "lineHeight": "$--lh-relaxed",
+              "fontFamily": "Geist",
+              "fontSize": "$--fs-body",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "0GahJ",
+              "name": "stackContent",
+              "width": "fill_container",
+              "gap": 48,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kQeF4",
+                  "name": "leftCol",
+                  "width": 425,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "33Zdo",
+                      "name": "Languages",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PP0Va",
+                          "name": "cat1label",
+                          "fill": "$t:--primary",
+                          "content": "Языки",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": "$--fs-label",
+                          "fontWeight": "600",
+                          "letterSpacing": "$--ls-wide"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BCxPY",
+                          "name": "cat1val",
+                          "fill": "$t:--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Python, JavaScript/TypeScript, Go",
+                          "lineHeight": "$--lh-normal",
+                          "fontFamily": "Geist",
+                          "fontSize": "$--fs-body-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mPXs5",
+                      "name": "Backend Python",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "g7MOp",
+                          "name": "cat2label",
+                          "fill": "$t:--primary",
+                          "content": "Backend (Python)",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": "$--fs-label",
+                          "fontWeight": "600",
+                          "letterSpacing": "$--ls-wide"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5D224",
+                          "name": "cat2val",
+                          "fill": "$t:--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "FastAPI, SQLAlchemy, Alembic, Pydantic, aiogram, FastStream",
+                          "lineHeight": "$--lh-normal",
+                          "fontFamily": "Geist",
+                          "fontSize": "$--fs-body-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xHRCZ",
+                      "name": "Backend JS",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EZEQ1",
+                          "name": "cat3label",
+                          "fill": "$t:--primary",
+                          "content": "Backend (JS/TS)",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": "$--fs-label",
+                          "fontWeight": "600",
+                          "letterSpacing": "$--ls-wide"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SN3ub",
+                          "name": "cat3val",
+                          "fill": "$t:--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Node.js, Drizzle, Prisma",
+                          "lineHeight": "$--lh-normal",
+                          "fontFamily": "Geist",
+                          "fontSize": "$--fs-body-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PgSFt",
+                      "name": "Brokers",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iKkQF",
+                          "name": "cat4label",
+                          "fill": "$t:--primary",
+                          "content": "Брокеры",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": "$--fs-label",
+                          "fontWeight": "600",
+                          "letterSpacing": "$--ls-wide"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IaAxU",
+                          "name": "cat4val",
+                          "fill": "$t:--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "RabbitMQ",
+                          "lineHeight": "$--lh-normal",
+                          "fontFamily": "Geist",
+                          "fontSize": "$--fs-body-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "17uVu",
+                  "name": "rightCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gNMov",
+                      "name": "Frontend",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I9YYM",
+                          "name": "cat5label",
+                          "fill": "$t:--primary",
+                          "content": "Frontend",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": "$--fs-label",
+                          "fontWeight": "600",
+                          "letterSpacing": "$--ls-wide"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ia6SO",
+                          "name": "cat5val",
+                          "fill": "$t:--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "React, Next.js, Tailwind CSS, shadcn/ui",
+                          "lineHeight": "$--lh-normal",
+                          "fontFamily": "Geist",
+                          "fontSize": "$--fs-body-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kuN8L",
+                      "name": "LLM & AI",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Cc2C7",
+                          "name": "cat6label",
+                          "fill": "$t:--primary",
+                          "content": "LLM & AI",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": "$--fs-label",
+                          "fontWeight": "600",
+                          "letterSpacing": "$--ls-wide"
+                        },
+                        {
+                          "type": "text",
+                          "id": "a8iUy",
+                          "name": "cat6val",
+                          "fill": "$t:--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "LangChain, LangGraph, Claude, OpenAI",
+                          "lineHeight": "$--lh-normal",
+                          "fontFamily": "Geist",
+                          "fontSize": "$--fs-body-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OQxIG",
+                      "name": "Storage",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5HUkO",
+                          "name": "cat7label",
+                          "fill": "$t:--primary",
+                          "content": "Хранение",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": "$--fs-label",
+                          "fontWeight": "600",
+                          "letterSpacing": "$--ls-wide"
+                        },
+                        {
+                          "type": "text",
+                          "id": "iepAz",
+                          "name": "cat7val",
+                          "fill": "$t:--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "PostgreSQL, Redis, S3",
+                          "lineHeight": "$--lh-normal",
+                          "fontFamily": "Geist",
+                          "fontSize": "$--fs-body-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QgZyP",
+                      "name": "Infra",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yeblc",
+                          "name": "cat8label",
+                          "fill": "$t:--primary",
+                          "content": "Инфраструктура",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": "$--fs-label",
+                          "fontWeight": "600",
+                          "letterSpacing": "$--ls-wide"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rNc5N",
+                          "name": "cat8val",
+                          "fill": "$t:--foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Docker, GitLab CI",
+                          "lineHeight": "$--lh-normal",
+                          "fontFamily": "Geist",
+                          "fontSize": "$--fs-body-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Zyx8I",
+          "name": "Projects Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Wmmyj",
+              "name": "eyebrow",
+              "fill": "$t:--primary",
+              "content": "// ПРОЕКТЫ",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": "$--fs-eyebrow",
+              "fontWeight": "500",
+              "letterSpacing": "$--ls-wide"
+            },
+            {
+              "type": "text",
+              "id": "TDFap",
+              "name": "title",
+              "fill": "$t:--foreground",
+              "content": "Проекты",
+              "lineHeight": "$--lh-tight",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": "$--fs-h2",
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "FblIL",
+              "name": "subtitle",
+              "fill": "$t:--muted-foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Всё это реализовано с помощью LLM — почти никакого рукоприкладства",
+              "lineHeight": "$--lh-relaxed",
+              "fontFamily": "Geist",
+              "fontSize": "$--fs-body",
+              "fontWeight": "normal"
+            },
+            {
+              "type": "group",
+              "id": "dm77R",
+              "layout": "vertical",
+              "gap": 16,
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EkHOK",
+                  "name": "projectsRow2",
+                  "width": "fill_container",
+                  "height": 261.8608615643792,
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "Tt9it",
+                      "type": "ref",
+                      "ref": "9btVU",
+                      "width": "fill_container",
+                      "name": "card3",
+                      "height": "fill_container",
+                      "x": 0,
+                      "y": 0,
+                      "descendants": {
+                        "joTxf": {
+                          "width": "fill_container",
+                          "height": "fit_content",
+                          "x": 32,
+                          "y": 32
+                        },
+                        "HOae7": {
+                          "iconFontName": "shopping-bag"
+                        },
+                        "mFmKI": {
+                          "content": "AI-консультант интернет-магазина БАДов",
+                          "x": 32,
+                          "y": 1.5
+                        },
+                        "tp4pP": {
+                          "content": "Умный чат-бот, который консультировал покупателей по подбору добавок, проверял наличие товаров, рассказывал об акциях и оформлял заказы. Интеграции: 1С-Битрикс, Битрикс24, СДЭК, Почта России, 5Post, OpenAI. Отдельная админ-панель для управления ботом.",
+                          "width": "fill_container",
+                          "x": 32,
+                          "y": 72
+                        },
+                        "F3Cbq": {
+                          "content": "Fullstack-разработка",
+                          "x": 32,
+                          "y": 176
+                        }
+                      }
+                    },
+                    {
+                      "id": "ilJlg",
+                      "type": "ref",
+                      "ref": "9btVU",
+                      "width": "fill_container",
+                      "name": "card4",
+                      "height": "fill_container",
+                      "x": 608,
+                      "y": 0,
+                      "descendants": {
+                        "joTxf": {
+                          "width": "fill_container",
+                          "height": "fit_content",
+                          "x": 32,
+                          "y": 32
+                        },
+                        "HOae7": {
+                          "iconFontName": "heart-pulse"
+                        },
+                        "mFmKI": {
+                          "content": "Умный Доктор — медицинская платформа с AI",
+                          "x": 32,
+                          "y": 1.5
+                        },
+                        "tp4pP": {
+                          "content": "Медицинская платформа для пациентов, врачей и клиник. AI-чекер симптомов, электронная медкарта, OCR анализов — всё в Telegram Web App. Для врачей и клиник — веб-порталы с верификацией и аналитикой. Микросервисная архитектура из 6 сервисов, AI-диалоги, RAG.",
+                          "width": "fill_container",
+                          "x": 32,
+                          "y": 72
+                        },
+                        "F3Cbq": {
+                          "content": "Fullstack-разработка",
+                          "x": 32,
+                          "y": 176
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HdVC3",
+                  "name": "projectsRow1",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "Sn1Dg",
+                      "type": "ref",
+                      "ref": "9btVU",
+                      "width": "fill_container",
+                      "name": "card1",
+                      "height": "fit_content",
+                      "x": 0,
+                      "y": 0,
+                      "descendants": {
+                        "joTxf": {
+                          "width": "fill_container",
+                          "height": "fit_content",
+                          "x": 32,
+                          "y": 32
+                        },
+                        "HOae7": {
+                          "iconFontName": "bot"
+                        },
+                        "mFmKI": {
+                          "content": "Финансовый Telegram-бот",
+                          "x": 32,
+                          "y": 1.5
+                        },
+                        "tp4pP": {
+                          "content": "AI-персонаж, который обучал пользователей финансовой грамотности и помогал подбирать микрозаймы. Внутри — база знаний, автоматические рассылки, подбор предложений от МФО. Для бизнеса — сбор статистики, маркетинговые метрики и аналитика.",
+                          "width": "fill_container",
+                          "x": 32,
+                          "y": 72
+                        },
+                        "F3Cbq": {
+                          "content": "Backend-разработка",
+                          "x": 32,
+                          "y": 176
+                        }
+                      }
+                    },
+                    {
+                      "id": "uXcPN",
+                      "type": "ref",
+                      "ref": "9btVU",
+                      "width": "fill_container",
+                      "name": "card2",
+                      "height": 224,
+                      "x": 608,
+                      "y": 0,
+                      "flipX": false,
+                      "flipY": false,
+                      "descendants": {
+                        "joTxf": {
+                          "width": "fill_container",
+                          "height": "fit_content",
+                          "x": 32,
+                          "y": 32
+                        },
+                        "HOae7": {
+                          "iconFontName": "scissors"
+                        },
+                        "mFmKI": {
+                          "content": "Платформа планирования швейного производства",
+                          "x": 32,
+                          "y": 1.5
+                        },
+                        "tp4pP": {
+                          "content": "Система управления швейным цехом: привязка сотрудников через Telegram, шаблоны операций с нормами по времени и стоимости, отчётность швей через бота, автоматический расчёт выплат, дашборд с аналитикой.",
+                          "width": "fill_container",
+                          "x": 32,
+                          "y": 72
+                        },
+                        "F3Cbq": {
+                          "content": "Fullstack-разработка",
+                          "x": 32,
+                          "y": 154
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xj88y",
+          "name": "Contacts Section",
+          "width": "fill_container",
+          "height": 584,
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "WHOSg",
+              "name": "eyebrow",
+              "fill": "$t:--primary",
+              "content": "// КОНТАКТЫ",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": "$--fs-eyebrow",
+              "fontWeight": "500",
+              "letterSpacing": "$--ls-wide"
+            },
+            {
+              "type": "text",
+              "id": "tSFaF",
+              "name": "title",
+              "fill": "$t:--foreground",
+              "content": "Связаться",
+              "lineHeight": "$--lh-tight",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": "$--fs-h2",
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "KJSj7",
+              "name": "contactLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ooo6Z",
+                  "name": "telegram",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "X1O5l",
+                      "name": "tgIcon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "send",
+                      "iconFontFamily": "lucide",
+                      "fill": "$t:--primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FyiKL",
+                      "name": "tgText",
+                      "fill": "$t:--foreground",
+                      "content": "Telegram",
+                      "fontFamily": "Geist",
+                      "fontSize": "$--fs-h3",
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WpyUd",
+                  "name": "email",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "IPPnq",
+                      "name": "emailIcon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "mail",
+                      "iconFontFamily": "lucide",
+                      "fill": "$t:--primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "klGj9",
+                      "name": "emailText",
+                      "fill": "$t:--foreground",
+                      "content": "Email",
+                      "fontFamily": "Geist",
+                      "fontSize": "$--fs-h3",
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6SF0Z",
+                  "name": "hh",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ZTKBK",
+                      "name": "hhIcon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "briefcase",
+                      "iconFontFamily": "lucide",
+                      "fill": "$t:--primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dLEKM",
+                      "name": "hhText",
+                      "fill": "$t:--foreground",
+                      "content": "hh.ru",
+                      "fontFamily": "Geist",
+                      "fontSize": "$--fs-h3",
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "JuCOg",
+          "layoutPosition": "absolute",
+          "x": 665,
+          "y": 1478.1860290570276,
+          "rotation": 14.771200167262709,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./images/Metalic Water Infinity@1-1920x961.png",
+            "mode": "fill"
+          },
+          "width": 844,
+          "height": 672
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ks5IK",
+      "x": 962,
+      "y": -822,
+      "name": "Component/Section Header",
+      "theme": {
+        "t:Mode": "Dark"
+      },
+      "reusable": true,
+      "width": 600,
+      "layout": "vertical",
+      "gap": 24,
+      "children": [
+        {
+          "type": "text",
+          "id": "hZk7f",
+          "name": "shEyebrow",
+          "fill": "$t:--primary",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "// СЕКЦИЯ",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": "$--fs-eyebrow",
+          "fontWeight": "500",
+          "letterSpacing": "$--ls-wide"
+        },
+        {
+          "type": "text",
+          "id": "vSmFw",
+          "name": "shTitle",
+          "fill": "$t:--foreground",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Заголовок секции",
+          "lineHeight": "$--lh-tight",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": "$--fs-h2",
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "rCemD",
+          "name": "shSubtitle",
+          "fill": "$t:--muted-foreground",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Описание секции для пояснения контекста.",
+          "lineHeight": "$--lh-relaxed",
+          "fontFamily": "Geist",
+          "fontSize": "$--fs-body",
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9btVU",
+      "x": 962,
+      "y": -672,
+      "name": "Component/Project Card",
+      "theme": {
+        "t:Mode": "Dark"
+      },
+      "reusable": true,
+      "width": 400,
+      "fill": "$t:--card",
+      "cornerRadius": "$t:--radius-m",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "joTxf",
+          "name": "header",
+          "width": "fill_container",
+          "gap": 8,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "HOae7",
+              "name": "icon",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "bot",
+              "iconFontFamily": "lucide",
+              "fill": "$t:--primary"
+            },
+            {
+              "type": "text",
+              "id": "mFmKI",
+              "name": "title",
+              "fill": "$t:--foreground",
+              "content": "Название проекта",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": "$--fs-h3",
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "tp4pP",
+          "name": "description",
+          "fill": "$t:--muted-foreground",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Описание проекта и ключевые детали реализации.",
+          "lineHeight": "$--lh-normal",
+          "fontFamily": "Geist",
+          "fontSize": "$--fs-body-sm",
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "F3Cbq",
+          "name": "role",
+          "fill": "$t:--primary",
+          "content": "Роль",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": "$--fs-label",
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "3Fq8G",
+      "x": 962,
+      "y": -422,
+      "name": "Component/Tool Card",
+      "theme": {
+        "t:Mode": "Dark"
+      },
+      "reusable": true,
+      "width": 280,
+      "fill": "$t:--card",
+      "cornerRadius": "$t:--radius-m",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "bH3v3",
+          "name": "header",
+          "width": "fill_container",
+          "gap": 8,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "5nrcy",
+              "name": "icon",
+              "width": 32,
+              "height": 32,
+              "iconFontName": "terminal",
+              "iconFontFamily": "lucide",
+              "fill": "$t:--primary"
+            },
+            {
+              "type": "text",
+              "id": "qo5oF",
+              "name": "title",
+              "fill": "$t:--foreground",
+              "content": "Инструмент",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": "$--fs-h3",
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "vdsV8",
+          "name": "description",
+          "fill": "$t:--muted-foreground",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Описание инструмента.",
+          "lineHeight": "$--lh-normal",
+          "fontFamily": "Geist",
+          "fontSize": "$--fs-body-sm",
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Zq9Wr",
+      "x": 962,
+      "y": -242,
+      "name": "Component/Contact Link",
+      "theme": {
+        "t:Mode": "Dark"
+      },
+      "reusable": true,
+      "gap": 12,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "EbGKZ",
+          "name": "icon",
+          "width": 24,
+          "height": 24,
+          "iconFontName": "send",
+          "iconFontFamily": "lucide",
+          "fill": "$t:--primary"
+        },
+        {
+          "type": "text",
+          "id": "FRxX6",
+          "name": "label",
+          "fill": "$t:--foreground",
+          "content": "Контакт",
+          "fontFamily": "Geist",
+          "fontSize": "$--fs-h3",
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zlXnt",
+      "x": 1449,
+      "y": -822,
+      "name": "Component/Stack Category",
+      "theme": {
+        "t:Mode": "Dark"
+      },
+      "reusable": true,
+      "width": 280,
+      "layout": "vertical",
+      "gap": 2,
+      "children": [
+        {
+          "type": "text",
+          "id": "DuVSE",
+          "name": "label",
+          "fill": "$t:--primary",
+          "content": "Категория",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": "$--fs-label",
+          "fontWeight": "600",
+          "letterSpacing": "$--ls-wide"
+        },
+        {
+          "type": "text",
+          "id": "TAd5P",
+          "name": "value",
+          "fill": "$t:--foreground",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Технология 1, Технология 2",
+          "lineHeight": "$--lh-normal",
+          "fontFamily": "Geist",
+          "fontSize": "$--fs-body-sm",
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QjDMp",
+      "x": 1867,
+      "y": 131,
+      "name": "Мобильная версия — Dark Minimal",
+      "theme": {
+        "t:Mode": "Dark"
+      },
+      "clip": true,
+      "width": 390,
+      "fill": "#000000",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ntSig",
+          "name": "Hero Section Mobile",
+          "width": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sD06B",
+              "name": "Photo Mobile",
+              "width": "fill_container",
+              "height": 400,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1775219693368.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "zNxYN",
+              "name": "Hero Text Mobile",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                40,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Dv8rw",
+                  "name": "eyebrow",
+                  "fill": "$t:--primary",
+                  "content": "// ПРИВЕТ",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": "$--fs-eyebrow",
+                  "fontWeight": "500",
+                  "letterSpacing": "$--ls-wide"
+                },
+                {
+                  "type": "text",
+                  "id": "6tuil",
+                  "name": "nameT",
+                  "fill": "#FFFFFF",
+                  "content": "Данил",
+                  "lineHeight": "$--lh-tight",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 48,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "dLUUu",
+                  "name": "roleT",
+                  "fill": "#B8B9B6",
+                  "content": "AI-First Developer",
+                  "lineHeight": "$--lh-tight",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 28,
+                  "fontWeight": "300"
+                },
+                {
+                  "type": "text",
+                  "id": "SfDqx",
+                  "name": "subT",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Этот сайт я собрал за пару часов специально для вас\nОстальные проекты потребовали чуть больше",
+                  "lineHeight": "$--lh-relaxed",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Dxef4",
+                  "name": "Buttons Mobile",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "M2raH",
+                      "type": "ref",
+                      "ref": "t:ZGI9Z",
+                      "width": "fill_container",
+                      "name": "cta",
+                      "x": 0,
+                      "y": 0,
+                      "descendants": {
+                        "t:oNDwn": {
+                          "x": 76,
+                          "enabled": false
+                        },
+                        "t:J3Z6N": {
+                          "x": 91,
+                          "content": "Написать в Telegram"
+                        }
+                      }
+                    },
+                    {
+                      "id": "MR4nh",
+                      "type": "ref",
+                      "ref": "t:zIDRN",
+                      "width": "fill_container",
+                      "name": "ghBtn",
+                      "x": 0,
+                      "y": 60,
+                      "descendants": {
+                        "t:6NkRd": {
+                          "x": 97,
+                          "enabled": false
+                        },
+                        "t:0SrnB": {
+                          "x": 112,
+                          "content": "GitHub сайта →"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ks14v",
+          "name": "About Section Mobile",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "WIcwj",
+              "name": "About Header Mobile",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hcC7V",
+                  "name": "aboutEye",
+                  "fill": "$t:--primary",
+                  "content": "// ОБО МНЕ",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "UMAXm",
+                  "name": "aboutTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Полный цикл\nразработки с LLM",
+                  "lineHeight": 1.1,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Co70Y",
+                  "name": "aboutText",
+                  "fill": "#B8B9B6",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Я разрабатываю веб-сервисы с помощью LLM. Не прототипы и не демо — полноценные продукты, которые работают в проде. Делаю это уже больше года. Активно участвовал в построении LLM development workflow в команде, где вместе довели PCW до 95%+. \nРезультат — команда стала думать о продукте, а не о коде.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dH8hc",
+              "name": "Tools Grid Mobile",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TasRN",
+                  "name": "toolsLabel",
+                  "fill": "$t:--primary",
+                  "content": "// МОЙ ИНСТРУМЕНТАРИЙ",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "id": "RTSCl",
+                  "type": "ref",
+                  "ref": "3Fq8G",
+                  "width": "fill_container",
+                  "name": "card1",
+                  "x": 0,
+                  "y": 30,
+                  "descendants": {
+                    "bH3v3": {
+                      "width": "fill_container"
+                    },
+                    "5nrcy": {
+                      "iconFontName": "terminal"
+                    },
+                    "qo5oF": {
+                      "content": "Claude Code"
+                    },
+                    "vdsV8": {
+                      "width": "fill_container",
+                      "content": "По опыту, самый мощный инструмент для разработки с LLM на сегодня. MCP-серверы, кастомные skills."
+                    }
+                  }
+                },
+                {
+                  "id": "ssQJN",
+                  "type": "ref",
+                  "ref": "3Fq8G",
+                  "width": "fill_container",
+                  "name": "card2",
+                  "x": 0,
+                  "y": 220,
+                  "descendants": {
+                    "bH3v3": {
+                      "width": "fill_container"
+                    },
+                    "5nrcy": {
+                      "iconFontName": "pen-tool"
+                    },
+                    "qo5oF": {
+                      "content": "Figma + AI-дизайн"
+                    },
+                    "vdsV8": {
+                      "width": "fill_container",
+                      "content": "верстка как по макетам, так и генерация интерфейсов через нейросети. Быстрый путь от идеи до готового UI."
+                    }
+                  }
+                },
+                {
+                  "id": "re9hA",
+                  "type": "ref",
+                  "ref": "3Fq8G",
+                  "width": "fill_container",
+                  "name": "card3",
+                  "x": 0,
+                  "y": 410,
+                  "descendants": {
+                    "bH3v3": {
+                      "width": "fill_container"
+                    },
+                    "5nrcy": {
+                      "iconFontName": "git-branch"
+                    },
+                    "qo5oF": {
+                      "content": "GitLab CI"
+                    },
+                    "vdsV8": {
+                      "width": "fill_container",
+                      "content": "Автоматизация пайплайнов, деплой и контроль качества кода. Настройка CI/CD под проект."
+                    }
+                  }
+                },
+                {
+                  "id": "MIgwR",
+                  "type": "ref",
+                  "ref": "3Fq8G",
+                  "width": "fill_container",
+                  "name": "card4",
+                  "x": 0,
+                  "y": 600,
+                  "descendants": {
+                    "bH3v3": {
+                      "width": "fill_container"
+                    },
+                    "5nrcy": {
+                      "iconFontName": "users"
+                    },
+                    "qo5oF": {
+                      "content": "Работа с командой"
+                    },
+                    "vdsV8": {
+                      "width": "fill_container",
+                      "content": "Коммуникация со стейкхолдерами, написание аналитики — я не только про код, но и процессы."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XIv4e",
+          "name": "Stack Section Mobile",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "VMaqO",
+              "name": "stackEye",
+              "fill": "$t:--primary",
+              "content": "// СТЕК",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "gu1j1",
+              "name": "stackTitle",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "С LLM стек \nне ограничен",
+              "lineHeight": 1.1,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "MCFlT",
+              "name": "stackSub",
+              "fill": "#B8B9B6",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Однако вот с чем уже успел поработать:",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "8PGit",
+              "name": "Stack List Mobile",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "id": "DHxm6",
+                  "type": "ref",
+                  "ref": "zlXnt",
+                  "width": "fill_container",
+                  "name": "cat1",
+                  "x": 0,
+                  "y": 0,
+                  "descendants": {
+                    "DuVSE": {
+                      "content": "Языки"
+                    },
+                    "TAd5P": {
+                      "width": "fill_container",
+                      "content": "Python, JavaScript/TypeScript, Go"
+                    }
+                  }
+                },
+                {
+                  "id": "VjUQ1",
+                  "type": "ref",
+                  "ref": "zlXnt",
+                  "width": "fill_container",
+                  "name": "cat2",
+                  "x": 0,
+                  "y": 60,
+                  "descendants": {
+                    "DuVSE": {
+                      "content": "Backend (Python)"
+                    },
+                    "TAd5P": {
+                      "width": "fill_container",
+                      "content": "FastAPI, SQLAlchemy, Alembic, Pydantic, aiogram, FastStream"
+                    }
+                  }
+                },
+                {
+                  "id": "SCsY2",
+                  "type": "ref",
+                  "ref": "zlXnt",
+                  "width": "fill_container",
+                  "name": "cat3",
+                  "x": 0,
+                  "y": 142,
+                  "descendants": {
+                    "DuVSE": {
+                      "content": "Backend (JS/TS)"
+                    },
+                    "TAd5P": {
+                      "width": "fill_container",
+                      "content": "Node.js, Drizzle, Prisma"
+                    }
+                  }
+                },
+                {
+                  "id": "2g0Dc",
+                  "type": "ref",
+                  "ref": "zlXnt",
+                  "width": "fill_container",
+                  "name": "cat4",
+                  "x": 0,
+                  "y": 202,
+                  "descendants": {
+                    "DuVSE": {
+                      "content": "Брокеры"
+                    },
+                    "TAd5P": {
+                      "width": "fill_container",
+                      "content": "RabbitMQ"
+                    }
+                  }
+                },
+                {
+                  "id": "dozS3",
+                  "type": "ref",
+                  "ref": "zlXnt",
+                  "width": "fill_container",
+                  "name": "cat5",
+                  "x": 0,
+                  "y": 262,
+                  "descendants": {
+                    "DuVSE": {
+                      "content": "Frontend"
+                    },
+                    "TAd5P": {
+                      "width": "fill_container",
+                      "content": "React, Next.js, Tailwind CSS, shadcn/ui"
+                    }
+                  }
+                },
+                {
+                  "id": "x88Sf",
+                  "type": "ref",
+                  "ref": "zlXnt",
+                  "width": "fill_container",
+                  "name": "cat6",
+                  "x": 0,
+                  "y": 322,
+                  "descendants": {
+                    "DuVSE": {
+                      "content": "LLM & AI"
+                    },
+                    "TAd5P": {
+                      "width": "fill_container",
+                      "content": "LangChain, LangGraph, Claude, OpenAI"
+                    }
+                  }
+                },
+                {
+                  "id": "f9Lrz",
+                  "type": "ref",
+                  "ref": "zlXnt",
+                  "width": "fill_container",
+                  "name": "cat7",
+                  "x": 0,
+                  "y": 382,
+                  "descendants": {
+                    "DuVSE": {
+                      "content": "Хранение"
+                    },
+                    "TAd5P": {
+                      "width": "fill_container",
+                      "content": "PostgreSQL, Redis, S3"
+                    }
+                  }
+                },
+                {
+                  "id": "31aul",
+                  "type": "ref",
+                  "ref": "zlXnt",
+                  "width": "fill_container",
+                  "name": "cat8",
+                  "x": 0,
+                  "y": 442,
+                  "descendants": {
+                    "DuVSE": {
+                      "content": "Инфраструктура"
+                    },
+                    "TAd5P": {
+                      "width": "fill_container",
+                      "content": "Docker, GitLab CI"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "42kxC",
+          "name": "Projects Section Mobile",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "c3v91",
+              "name": "projEye",
+              "fill": "$t:--primary",
+              "content": "// ПРОЕКТЫ",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "i3MWO",
+              "name": "projTitle",
+              "fill": "#FFFFFF",
+              "content": "Проекты",
+              "lineHeight": 1.1,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "pAc0C",
+              "name": "projSub",
+              "fill": "#B8B9B6",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Всё это реализовано с помощью LLM — почти никакого рукоприкладства",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "hmDbz",
+              "name": "Projects List Mobile",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "pCNa9",
+                  "type": "ref",
+                  "ref": "9btVU",
+                  "width": "fill_container",
+                  "name": "p1",
+                  "x": 0,
+                  "y": 0,
+                  "descendants": {
+                    "joTxf": {
+                      "width": "fill_container"
+                    },
+                    "HOae7": {
+                      "iconFontName": "bot"
+                    },
+                    "mFmKI": {
+                      "content": "Финансовый Telegram-бот",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container"
+                    },
+                    "tp4pP": {
+                      "width": "fill_container",
+                      "content": "AI-персонаж, который обучал пользователей финансовой грамотности и помогал подбирать микрозаймы. Внутри — база знаний, автоматические рассылки, подбор предложений от МФО."
+                    },
+                    "F3Cbq": {
+                      "content": "Backend-разработка"
+                    }
+                  }
+                },
+                {
+                  "id": "b5DBs",
+                  "type": "ref",
+                  "ref": "9btVU",
+                  "width": "fill_container",
+                  "name": "p2",
+                  "x": 0,
+                  "y": 284,
+                  "descendants": {
+                    "joTxf": {
+                      "width": "fill_container"
+                    },
+                    "HOae7": {
+                      "iconFontName": "scissors"
+                    },
+                    "mFmKI": {
+                      "content": "Платформа планирования швейного производства",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container"
+                    },
+                    "tp4pP": {
+                      "width": "fill_container",
+                      "content": "Система управления швейным цехом: привязка сотрудников через Telegram, шаблоны операций с нормами по времени и стоимости, отчётность швей через бота, автоматический расчёт выплат, дашборд с аналитикой."
+                    },
+                    "F3Cbq": {
+                      "content": "Fullstack-разработка"
+                    }
+                  }
+                },
+                {
+                  "id": "V75q9",
+                  "type": "ref",
+                  "ref": "9btVU",
+                  "width": "fill_container",
+                  "name": "p3",
+                  "x": 0,
+                  "y": 586,
+                  "descendants": {
+                    "joTxf": {
+                      "width": "fill_container"
+                    },
+                    "HOae7": {
+                      "iconFontName": "shopping-bag"
+                    },
+                    "mFmKI": {
+                      "content": "AI-консультант \nинтернет-магазина БАДов",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container"
+                    },
+                    "tp4pP": {
+                      "width": "fill_container",
+                      "content": "Умный чат-бот, который консультировал покупателей по подбору добавок, проверял наличие товаров, рассказывал об акциях и оформлял заказы. Интеграции: 1С-Битрикс, Битрикс24, СДЭК."
+                    },
+                    "F3Cbq": {
+                      "content": "Fullstack-разработка"
+                    }
+                  }
+                },
+                {
+                  "id": "RT97V",
+                  "type": "ref",
+                  "ref": "9btVU",
+                  "width": "fill_container",
+                  "name": "p4",
+                  "x": 0,
+                  "y": 888,
+                  "descendants": {
+                    "joTxf": {
+                      "width": "fill_container"
+                    },
+                    "HOae7": {
+                      "iconFontName": "heart-pulse"
+                    },
+                    "mFmKI": {
+                      "content": "Умный Доктор — медицинская платформа \nс AI",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container"
+                    },
+                    "tp4pP": {
+                      "width": "fill_container",
+                      "content": "Медицинская платформа для пациентов, врачей и клиник. AI-чекер симптомов, электронная медкарта, OCR анализов — всё в Telegram Web App."
+                    },
+                    "F3Cbq": {
+                      "content": "Fullstack-разработка"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8rCDd",
+          "name": "Contacts Section Mobile",
+          "width": "fill_container",
+          "height": 469,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            64,
+            24
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "uYH0W",
+              "name": "contactEye",
+              "fill": "$t:--primary",
+              "content": "// КОНТАКТЫ",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 14,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "hHgzR",
+              "name": "contactTitle",
+              "fill": "#FFFFFF",
+              "content": "Связаться",
+              "lineHeight": 1.1,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "AsYmp",
+              "name": "Contact Links Mobile",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "OsF5p",
+                  "type": "ref",
+                  "ref": "Zq9Wr",
+                  "name": "tg",
+                  "x": 118.5,
+                  "y": 0,
+                  "descendants": {
+                    "EbGKZ": {
+                      "iconFontName": "send"
+                    },
+                    "FRxX6": {
+                      "content": "Telegram"
+                    }
+                  }
+                },
+                {
+                  "id": "zoxtU",
+                  "type": "ref",
+                  "ref": "Zq9Wr",
+                  "name": "em",
+                  "x": 132,
+                  "y": 44,
+                  "descendants": {
+                    "EbGKZ": {
+                      "iconFontName": "mail"
+                    },
+                    "FRxX6": {
+                      "content": "Email"
+                    }
+                  }
+                },
+                {
+                  "id": "odJDh",
+                  "type": "ref",
+                  "ref": "Zq9Wr",
+                  "name": "hh",
+                  "x": 134,
+                  "y": 88,
+                  "descendants": {
+                    "EbGKZ": {
+                      "iconFontName": "briefcase"
+                    },
+                    "FRxX6": {
+                      "content": "hh.ru"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "--fs-body": {
+      "type": "number",
+      "value": 18
+    },
+    "--fs-body-sm": {
+      "type": "number",
+      "value": 14
+    },
+    "--fs-eyebrow": {
+      "type": "number",
+      "value": 14
+    },
+    "--fs-h1": {
+      "type": "number",
+      "value": 72
+    },
+    "--fs-h2": {
+      "type": "number",
+      "value": 48
+    },
+    "--fs-h3": {
+      "type": "number",
+      "value": 16
+    },
+    "--fs-label": {
+      "type": "number",
+      "value": 12
+    },
+    "--lh-normal": {
+      "type": "number",
+      "value": 1.6
+    },
+    "--lh-relaxed": {
+      "type": "number",
+      "value": 1.7
+    },
+    "--lh-tight": {
+      "type": "number",
+      "value": 1.1
+    },
+    "--ls-wide": {
+      "type": "number",
+      "value": 2
+    }
+  },
+  "imports": {
+    "t": "pencil:lunaris.lib.pen"
+  }
+}
