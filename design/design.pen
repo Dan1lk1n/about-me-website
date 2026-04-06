@@ -782,7 +782,7 @@
                   "id": "EkHOK",
                   "name": "projectsRow2",
                   "width": "fill_container",
-                  "height": 261.8608615643792,
+                  "height": 277.3024754447419,
                   "gap": 16,
                   "children": [
                     {
@@ -1595,19 +1595,27 @@
                   "name": "card1",
                   "x": 0,
                   "y": 30,
+                  "height": "fit_content",
                   "descendants": {
                     "bH3v3": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 32,
+                      "y": 32
                     },
                     "5nrcy": {
                       "iconFontName": "terminal"
                     },
                     "qo5oF": {
-                      "content": "Claude Code"
+                      "content": "Claude Code",
+                      "x": 40,
+                      "y": 5.5
                     },
                     "vdsV8": {
                       "width": "fill_container",
-                      "content": "По опыту, самый мощный инструмент для разработки с LLM на сегодня. MCP-серверы, кастомные skills."
+                      "content": "По опыту, самый мощный инструмент для разработки с LLM на сегодня. MCP-серверы, кастомные skills.",
+                      "x": 32,
+                      "y": 80
                     }
                   }
                 },
@@ -1619,19 +1627,27 @@
                   "name": "card2",
                   "x": 0,
                   "y": 220,
+                  "height": "fit_content",
                   "descendants": {
                     "bH3v3": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 32,
+                      "y": 32
                     },
                     "5nrcy": {
                       "iconFontName": "pen-tool"
                     },
                     "qo5oF": {
-                      "content": "Figma + AI-дизайн"
+                      "content": "Figma + AI-дизайн",
+                      "x": 40,
+                      "y": 5.5
                     },
                     "vdsV8": {
                       "width": "fill_container",
-                      "content": "верстка как по макетам, так и генерация интерфейсов через нейросети. Быстрый путь от идеи до готового UI."
+                      "content": "верстка как по макетам, так и генерация интерфейсов через нейросети. Быстрый путь от идеи до готового UI.",
+                      "x": 32,
+                      "y": 80
                     }
                   }
                 },
@@ -1643,19 +1659,27 @@
                   "name": "card3",
                   "x": 0,
                   "y": 410,
+                  "height": "fit_content",
                   "descendants": {
                     "bH3v3": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 32,
+                      "y": 32
                     },
                     "5nrcy": {
                       "iconFontName": "git-branch"
                     },
                     "qo5oF": {
-                      "content": "GitLab CI"
+                      "content": "GitLab CI",
+                      "x": 40,
+                      "y": 5.5
                     },
                     "vdsV8": {
                       "width": "fill_container",
-                      "content": "Автоматизация пайплайнов, деплой и контроль качества кода. Настройка CI/CD под проект."
+                      "content": "Автоматизация пайплайнов, деплой и контроль качества кода. Настройка CI/CD под проект.",
+                      "x": 32,
+                      "y": 80
                     }
                   }
                 },
@@ -1667,19 +1691,27 @@
                   "name": "card4",
                   "x": 0,
                   "y": 600,
+                  "height": "fit_content",
                   "descendants": {
                     "bH3v3": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 32,
+                      "y": 32
                     },
                     "5nrcy": {
                       "iconFontName": "users"
                     },
                     "qo5oF": {
-                      "content": "Работа с командой"
+                      "content": "Работа с командой",
+                      "x": 40,
+                      "y": 5.5
                     },
                     "vdsV8": {
                       "width": "fill_container",
-                      "content": "Коммуникация со стейкхолдерами, написание аналитики — я не только про код, но и процессы."
+                      "content": "Коммуникация со стейкхолдерами, написание аналитики — я не только про код, но и процессы.",
+                      "x": 32,
+                      "y": 80
                     }
                   }
                 }
@@ -1752,13 +1784,15 @@
                   "name": "cat1",
                   "x": 0,
                   "y": 0,
+                  "height": "fit_content",
                   "descendants": {
                     "DuVSE": {
                       "content": "Языки"
                     },
                     "TAd5P": {
                       "width": "fill_container",
-                      "content": "Python, JavaScript/TypeScript, Go"
+                      "content": "Python, JavaScript/TypeScript, Go",
+                      "y": 18
                     }
                   }
                 },
@@ -1770,13 +1804,15 @@
                   "name": "cat2",
                   "x": 0,
                   "y": 60,
+                  "height": "fit_content",
                   "descendants": {
                     "DuVSE": {
                       "content": "Backend (Python)"
                     },
                     "TAd5P": {
                       "width": "fill_container",
-                      "content": "FastAPI, SQLAlchemy, Alembic, Pydantic, aiogram, FastStream"
+                      "content": "FastAPI, SQLAlchemy, Alembic, Pydantic, aiogram, FastStream",
+                      "y": 18
                     }
                   }
                 },
@@ -1788,13 +1824,15 @@
                   "name": "cat3",
                   "x": 0,
                   "y": 142,
+                  "height": "fit_content",
                   "descendants": {
                     "DuVSE": {
                       "content": "Backend (JS/TS)"
                     },
                     "TAd5P": {
                       "width": "fill_container",
-                      "content": "Node.js, Drizzle, Prisma"
+                      "content": "Node.js, Drizzle, Prisma",
+                      "y": 18
                     }
                   }
                 },
@@ -1806,13 +1844,15 @@
                   "name": "cat4",
                   "x": 0,
                   "y": 202,
+                  "height": "fit_content",
                   "descendants": {
                     "DuVSE": {
                       "content": "Брокеры"
                     },
                     "TAd5P": {
                       "width": "fill_container",
-                      "content": "RabbitMQ"
+                      "content": "RabbitMQ",
+                      "y": 18
                     }
                   }
                 },
@@ -1824,13 +1864,15 @@
                   "name": "cat5",
                   "x": 0,
                   "y": 262,
+                  "height": "fit_content",
                   "descendants": {
                     "DuVSE": {
                       "content": "Frontend"
                     },
                     "TAd5P": {
                       "width": "fill_container",
-                      "content": "React, Next.js, Tailwind CSS, shadcn/ui"
+                      "content": "React, Next.js, Tailwind CSS, shadcn/ui",
+                      "y": 18
                     }
                   }
                 },
@@ -1842,13 +1884,15 @@
                   "name": "cat6",
                   "x": 0,
                   "y": 322,
+                  "height": "fit_content",
                   "descendants": {
                     "DuVSE": {
                       "content": "LLM & AI"
                     },
                     "TAd5P": {
                       "width": "fill_container",
-                      "content": "LangChain, LangGraph, Claude, OpenAI"
+                      "content": "LangChain, LangGraph, Claude, OpenAI",
+                      "y": 18
                     }
                   }
                 },
@@ -1860,13 +1904,15 @@
                   "name": "cat7",
                   "x": 0,
                   "y": 382,
+                  "height": "fit_content",
                   "descendants": {
                     "DuVSE": {
                       "content": "Хранение"
                     },
                     "TAd5P": {
                       "width": "fill_container",
-                      "content": "PostgreSQL, Redis, S3"
+                      "content": "PostgreSQL, Redis, S3",
+                      "y": 18
                     }
                   }
                 },
@@ -1878,13 +1924,15 @@
                   "name": "cat8",
                   "x": 0,
                   "y": 442,
+                  "height": "fit_content",
                   "descendants": {
                     "DuVSE": {
                       "content": "Инфраструктура"
                     },
                     "TAd5P": {
                       "width": "fill_container",
-                      "content": "Docker, GitLab CI"
+                      "content": "Docker, GitLab CI",
+                      "y": 18
                     }
                   }
                 }
@@ -1955,9 +2003,13 @@
                   "name": "p1",
                   "x": 0,
                   "y": 0,
+                  "height": "fit_content",
                   "descendants": {
                     "joTxf": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 32,
+                      "y": 32
                     },
                     "HOae7": {
                       "iconFontName": "bot"
@@ -1965,14 +2017,20 @@
                     "mFmKI": {
                       "content": "Финансовый Telegram-бот",
                       "textGrowth": "fixed-width",
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "x": 32,
+                      "y": 1.5
                     },
                     "tp4pP": {
                       "width": "fill_container",
-                      "content": "AI-персонаж, который обучал пользователей финансовой грамотности и помогал подбирать микрозаймы. Внутри — база знаний, автоматические рассылки, подбор предложений от МФО."
+                      "content": "AI-персонаж, который обучал пользователей финансовой грамотности и помогал подбирать микрозаймы. Внутри — база знаний, автоматические рассылки, подбор предложений от МФО.",
+                      "x": 32,
+                      "y": 72
                     },
                     "F3Cbq": {
-                      "content": "Backend-разработка"
+                      "content": "Backend-разработка",
+                      "x": 32,
+                      "y": 220
                     }
                   }
                 },
@@ -1984,24 +2042,34 @@
                   "name": "p2",
                   "x": 0,
                   "y": 284,
+                  "height": "fit_content",
                   "descendants": {
                     "joTxf": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 32,
+                      "y": 32
                     },
                     "HOae7": {
-                      "iconFontName": "scissors"
+                      "iconFontName": "scissors",
+                      "y": 9
                     },
                     "mFmKI": {
                       "content": "Платформа планирования швейного производства",
                       "textGrowth": "fixed-width",
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "x": 32
                     },
                     "tp4pP": {
                       "width": "fill_container",
-                      "content": "Система управления швейным цехом: привязка сотрудников через Telegram, шаблоны операций с нормами по времени и стоимости, отчётность швей через бота, автоматический расчёт выплат, дашборд с аналитикой."
+                      "content": "Система управления швейным цехом: привязка сотрудников через Telegram, шаблоны операций с нормами по времени и стоимости, отчётность швей через бота, автоматический расчёт выплат, дашборд с аналитикой.",
+                      "x": 32,
+                      "y": 90
                     },
                     "F3Cbq": {
-                      "content": "Fullstack-разработка"
+                      "content": "Fullstack-разработка",
+                      "x": 32,
+                      "y": 238
                     }
                   }
                 },
@@ -2013,24 +2081,34 @@
                   "name": "p3",
                   "x": 0,
                   "y": 586,
+                  "height": "fit_content",
                   "descendants": {
                     "joTxf": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 32,
+                      "y": 32
                     },
                     "HOae7": {
-                      "iconFontName": "shopping-bag"
+                      "iconFontName": "shopping-bag",
+                      "y": 9
                     },
                     "mFmKI": {
                       "content": "AI-консультант \nинтернет-магазина БАДов",
                       "textGrowth": "fixed-width",
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "x": 32
                     },
                     "tp4pP": {
                       "width": "fill_container",
-                      "content": "Умный чат-бот, который консультировал покупателей по подбору добавок, проверял наличие товаров, рассказывал об акциях и оформлял заказы. Интеграции: 1С-Битрикс, Битрикс24, СДЭК."
+                      "content": "Умный чат-бот, который консультировал покупателей по подбору добавок, проверял наличие товаров, рассказывал об акциях и оформлял заказы. Интеграции: 1С-Битрикс, Битрикс24, СДЭК.",
+                      "x": 32,
+                      "y": 90
                     },
                     "F3Cbq": {
-                      "content": "Fullstack-разработка"
+                      "content": "Fullstack-разработка",
+                      "x": 32,
+                      "y": 238
                     }
                   }
                 },
@@ -2042,24 +2120,34 @@
                   "name": "p4",
                   "x": 0,
                   "y": 888,
+                  "height": "fit_content",
                   "descendants": {
                     "joTxf": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "x": 32,
+                      "y": 32
                     },
                     "HOae7": {
-                      "iconFontName": "heart-pulse"
+                      "iconFontName": "heart-pulse",
+                      "y": 19.5
                     },
                     "mFmKI": {
                       "content": "Умный Доктор — медицинская платформа \nс AI",
                       "textGrowth": "fixed-width",
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "x": 32
                     },
                     "tp4pP": {
                       "width": "fill_container",
-                      "content": "Медицинская платформа для пациентов, врачей и клиник. AI-чекер симптомов, электронная медкарта, OCR анализов — всё в Telegram Web App."
+                      "content": "Медицинская платформа для пациентов, врачей и клиник. AI-чекер симптомов, электронная медкарта, OCR анализов — всё в Telegram Web App.",
+                      "x": 32,
+                      "y": 111
                     },
                     "F3Cbq": {
-                      "content": "Fullstack-разработка"
+                      "content": "Fullstack-разработка",
+                      "x": 32,
+                      "y": 215
                     }
                   }
                 }
@@ -2120,12 +2208,16 @@
                   "name": "tg",
                   "x": 118.5,
                   "y": 0,
+                  "width": "fit_content",
+                  "height": "fit_content",
                   "descendants": {
                     "EbGKZ": {
                       "iconFontName": "send"
                     },
                     "FRxX6": {
-                      "content": "Telegram"
+                      "content": "Telegram",
+                      "x": 36,
+                      "y": 1.5
                     }
                   }
                 },
@@ -2136,12 +2228,16 @@
                   "name": "em",
                   "x": 132,
                   "y": 44,
+                  "width": "fit_content",
+                  "height": "fit_content",
                   "descendants": {
                     "EbGKZ": {
                       "iconFontName": "mail"
                     },
                     "FRxX6": {
-                      "content": "Email"
+                      "content": "Email",
+                      "x": 36,
+                      "y": 1.5
                     }
                   }
                 },
@@ -2152,12 +2248,16 @@
                   "name": "hh",
                   "x": 134,
                   "y": 88,
+                  "width": "fit_content",
+                  "height": "fit_content",
                   "descendants": {
                     "EbGKZ": {
                       "iconFontName": "briefcase"
                     },
                     "FRxX6": {
-                      "content": "hh.ru"
+                      "content": "hh.ru",
+                      "x": 36,
+                      "y": 1.5
                     }
                   }
                 }
